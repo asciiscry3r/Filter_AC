@@ -5407,7 +5407,7 @@
 		)
 		(uuid e2cd824d-9e3e-4a70-8afc-c103d1c241b9)
 	)
-	(text_box "R1,R2,R8,R9,R12,R11,R16,R14,R27,R29,R25,R24 = 33KOm\nR3,R10,R13,R26,R21,R20 = 15KOm\nR4,R7,R15,R23,R30,R31,R33,R34,R35,R36 = 2-10MOm all dumping resistors must have same nominal ( 10MOm as example ) and model !!!!!\nR5,R6,R18,R15,R17,R22,R28,R32 = 7-10Om   R4,R19 = 50Om 2GHz about 450 W\nC1,C6,C9,C17,C16,C18 = 220nF\nC2,C3,C7,C8,C11,C10,C12,C13,C20,C19,C21,C22 = 100nF\nC15,C14 = 10-100 nF - optional, I use MC1230 | C4,C5 = 100 nF   C23,C24 = 35 mkF\nC25,C26, C27,C28 = 22 pF C9, C10 = 10 nF\n\ntry to keep maximum possible distance between filters ~ 30cm\n\nMC 1230 optional"
+	(text_box "R1,R2,R8,R9,R12,R11,R16,R14,R27,R29,R25,R24 = 33KOm\nR3,R10,R13,R26,R21,R20 = 15KOm\nR7,R15,R23,R30,R31,R33,R34,R35,R36 = 2-10MOm all dumping resistors must have same nominal ( 10MOm as example ) and model !!!!!\nR5,R6,R18,R15,R17,R22,R28,R32 = 7-10Om   R4,R19 = 50Om 2GHz about 450 W\nC1,C6,C9,C17,C16,C18 = 220nF\nC2,C3,C7,C8,C11,C10,C12,C13,C20,C19,C21,C22 = 100nF\nC15,C14 = 10-100 nF - optional, I use MC1230 | C4,C5 = 100 nF   C23,C24 = 35-30 mkF\nC25,C26, C27,C28 = 22 pF C9, C10 = 10 nF\n\ntry to keep maximum possible distance between filters ~ 30cm\n\nMC 1230 optional"
 		(exclude_from_sim no)
 		(at 13.97 152.4 0)
 		(size 143.51 43.18)
@@ -5492,6 +5492,16 @@
 			(justify left bottom)
 		)
 		(uuid "19819f39-6803-4620-9ba6-ae8f104eee0f")
+	)
+	(text "3 \n"
+		(exclude_from_sim no)
+		(at 135.89 136.398 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "29a76748-662e-4e5c-9e74-6d52d8763ffe")
 	)
 	(text "29.02.2024\n"
 		(exclude_from_sim no)
@@ -5580,7 +5590,7 @@
 		)
 		(uuid "6e37b9d0-4ad4-401d-8a3a-0410aedeff46")
 	)
-	(text "Grounding device"
+	(text "Grounding devices"
 		(exclude_from_sim no)
 		(at 137.16 137.16 0)
 		(effects
@@ -5646,7 +5656,7 @@
 		)
 		(uuid "b3a3c075-4150-4c2f-968c-5f0a499b05b1")
 	)
-	(text "Same filters at 1.5-2 Km distance\n"
+	(text "Same filters at 1.5-2 Km distance, \nwithout 30uF ELF filer\n\n\n"
 		(exclude_from_sim no)
 		(at 241.3 95.25 0)
 		(effects
@@ -8842,7 +8852,7 @@
 				)
 			)
 		)
-		(property "Value" "90 Om"
+		(property "Value" "47 Om"
 			(at 196.85 133.35 90)
 			(effects
 				(font
@@ -10274,7 +10284,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "8 Om"
+		(property "Value" "~3 Om"
 			(at 176.53 74.9299 0)
 			(effects
 				(font
@@ -10484,6 +10494,85 @@
 			(project "filter"
 				(path "/69b3d959-9103-4d24-8a1d-6bf78309c8d1"
 					(reference "#PWR05")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "PCM_Generic:R,IEC")
+		(at 72.39 69.85 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "881e43e7-f1fe-4c30-bff1-5be76f399749")
+		(property "Reference" "R28"
+			(at 74.93 67.3099 0)
+			(effects
+				(font
+					(size 2.54 2.54)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "12 Om"
+			(at 74.93 72.3899 0)
+			(effects
+				(font
+					(size 2.54 2.54)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 72.39 69.85 0)
+			(effects
+				(font
+					(size 2.54 2.54)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 72.39 69.85 0)
+			(effects
+				(font
+					(size 2.54 2.54)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 72.39 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Indicator" ""
+			(at 69.85 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "5b1d68aa-b417-4ca1-89e1-e895403db1fb")
+		)
+		(pin "2"
+			(uuid "5d13c153-ac47-4241-ad7e-5ce55647aeff")
+		)
+		(instances
+			(project "filter"
+				(path "/69b3d959-9103-4d24-8a1d-6bf78309c8d1"
+					(reference "R28")
 					(unit 1)
 				)
 			)
@@ -14735,86 +14824,6 @@
 			(project "filer_for_pc"
 				(path "/cdde10a9-1f5d-4493-ba10-a349138f6d4d"
 					(reference "R24")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "PCM_Generic:R,IEC")
-		(at 72.39 69.85 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "f704a970-b939-4437-9f42-cb11489d8beb")
-		(property "Reference" "R7"
-			(at 74.93 67.3099 0)
-			(effects
-				(font
-					(size 2.54 2.54)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "8 Om"
-			(at 74.93 72.3899 0)
-			(effects
-				(font
-					(size 2.54 2.54)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Footprint" ""
-			(at 72.39 69.85 0)
-			(effects
-				(font
-					(size 2.54 2.54)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 72.39 69.85 0)
-			(effects
-				(font
-					(size 2.54 2.54)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 72.39 69.85 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Indicator" ""
-			(at 69.85 67.31 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "6ff20cb2-efb0-4346-aa53-331d45f94ce6")
-		)
-		(pin "2"
-			(uuid "c189cb22-3510-4674-9688-897638c35e59")
-		)
-		(instances
-			(project "filter"
-				(path "/69b3d959-9103-4d24-8a1d-6bf78309c8d1"
-					(reference "R7")
 					(unit 1)
 				)
 			)
