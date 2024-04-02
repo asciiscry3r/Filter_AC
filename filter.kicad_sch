@@ -1824,6 +1824,12 @@
 		(uuid "1f76a58b-d48f-4a1b-ba41-5fd61f5e9a96")
 	)
 	(junction
+		(at 68.58 97.79)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "2375a7fd-a051-4bf7-a179-36ea7a9f1fa6")
+	)
+	(junction
 		(at 217.17 16.51)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2056,12 +2062,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "a18775df-3afd-4351-b9b2-b6839a3c5397")
-	)
-	(junction
-		(at 58.42 60.96)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "a1dcf472-d53b-48e6-9e4d-ea731f5c2ae7")
 	)
 	(junction
 		(at 165.1 128.27)
@@ -2362,6 +2362,16 @@
 			(type default)
 		)
 		(uuid "03aa2b75-752b-42ef-881e-3d5c8accaf3c")
+	)
+	(wire
+		(pts
+			(xy 68.58 97.79) (xy 68.58 107.95)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "03c6faa3-70b1-4954-b5ad-75ed7b57f7c7")
 	)
 	(wire
 		(pts
@@ -2795,6 +2805,16 @@
 	)
 	(wire
 		(pts
+			(xy 52.07 107.95) (xy 52.07 113.03)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "21c438a3-501d-40d9-b076-bd419daf5a00")
+	)
+	(wire
+		(pts
 			(xy 87.63 54.61) (xy 97.79 54.61)
 		)
 		(stroke
@@ -3115,6 +3135,16 @@
 	)
 	(wire
 		(pts
+			(xy 62.23 107.95) (xy 68.58 107.95)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3522f96e-f859-4422-be55-ad56334df874")
+	)
+	(wire
+		(pts
 			(xy 139.7 38.1) (xy 139.7 44.45)
 		)
 		(stroke
@@ -3225,7 +3255,7 @@
 	)
 	(wire
 		(pts
-			(xy 62.23 97.79) (xy 78.74 97.79)
+			(xy 62.23 97.79) (xy 68.58 97.79)
 		)
 		(stroke
 			(width 0)
@@ -3665,6 +3695,16 @@
 	)
 	(wire
 		(pts
+			(xy 68.58 97.79) (xy 78.74 97.79)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5dc66a08-c3c3-4150-8dd6-d14628194963")
+	)
+	(wire
+		(pts
 			(xy 398.78 106.68) (xy 412.75 106.68)
 		)
 		(stroke
@@ -3762,16 +3802,6 @@
 			(type default)
 		)
 		(uuid "654db0c0-e769-4179-a570-82783e0f84d0")
-	)
-	(wire
-		(pts
-			(xy 58.42 44.45) (xy 58.42 60.96)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "6559dca0-7770-4206-9e75-9f535d7f46f1")
 	)
 	(wire
 		(pts
@@ -5805,7 +5835,7 @@
 	)
 	(wire
 		(pts
-			(xy 58.42 60.96) (xy 58.42 77.47)
+			(xy 58.42 44.45) (xy 58.42 77.47)
 		)
 		(stroke
 			(width 0)
@@ -6139,7 +6169,7 @@
 		)
 		(uuid e2cd824d-9e3e-4a70-8afc-c103d1c241b9)
 	)
-	(text_box "R1,R2,R8,R9,R12,R11,R16,R14,R27,R29,R25,R24 = 33KOm\nR3,R10,R13,R26,R21,R20 = 15KOm\nR7,R15,R23,R30,R31,R33,R34,R35,R36 = 2-10MOm all dumping resistors must have same nominal ( 10MOm as example ) and model !!!!!\nR5,R6,R18,R15,R17,R22,R28,R32 = 7-10Om   R4,R19 = 50Om 2GHz about 450 W\nC1,C6,C9,C17,C16,C18 = 220nF\nC2,C3,C7,C8,C11,C10,C12,C13,C20,C19,C21,C22 = 100nF\nC4,C5 = 100 nF   C23,C24 = 60 mkF\nC25,C26, C27,C28 = 22 pF C9, C10 = 10 nF\n\ntry to keep maximum possible distance between filters ~ 30cm\n\nMC 1230 optional"
+	(text_box "R1,R2,R8,R9,R12,R11,R16,R14,R27,R29,R25,R24 = 33KOm\nR3,R10,R13,R26,R21,R20 = 15KOm\nR7,R15,R23,R30,R31,R33,R34,R35,R36 = 2-10MOm all dumping resistors must have same nominal ( 10MOm as example ) and model !!!!!\nR5,R6,R18,R15,R17,R22,R28,R32 = 7-10Om   R4,R19 = 50Om 2GHz about 450 W\nC1,C6,C9,C17,C16,C18 = 220nF\nC2,C3,C7,C8,C11,C10,C12,C13,C20,C19,C21,C22 = 100nF\nC4,C5 = 82 nF   C23,C24 = 60 mkF\nC25,C26, C27,C28 = 22 pF C9, C10 = 10 nF\n\ntry to keep maximum possible distance between filters ~ 30cm\n\nMC 1230 optional"
 		(exclude_from_sim no)
 		(at 13.97 152.4 0)
 		(size 143.51 43.18)
@@ -6702,7 +6732,7 @@
 				)
 			)
 		)
-		(property "Value" "C, 60 mkF"
+		(property "Value" "C, 80 mkF"
 			(at 51.562 64.77 90)
 			(effects
 				(font
@@ -7389,7 +7419,7 @@
 				)
 			)
 		)
-		(property "Value" "C,1 mkF"
+		(property "Value" "C,0.8mkF"
 			(at 221.742 62.992 90)
 			(effects
 				(font
@@ -8618,7 +8648,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "C,1 mkF"
+		(property "Value" "C,0.8mkF"
 			(at 245.872 69.088 0)
 			(effects
 				(font
@@ -11912,7 +11942,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "3 Om"
+		(property "Value" "2 Om"
 			(at 71.12 72.3899 0)
 			(effects
 				(font
@@ -11967,6 +11997,74 @@
 			(project "filter"
 				(path "/69b3d959-9103-4d24-8a1d-6bf78309c8d1"
 					(reference "R28")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:SparkGap")
+		(at 57.15 107.95 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "89a5b7ee-9424-454b-8e73-a6e626779afb")
+		(property "Reference" "E2"
+			(at 57.15 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SparkGap"
+			(at 57.15 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 57.15 109.728 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 57.15 107.95 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Spark gap"
+			(at 57.15 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "87f14a46-2036-473d-9515-41afd3474f51")
+		)
+		(pin "1"
+			(uuid "15ef5430-97f1-4c94-baf7-75657eaef6c8")
+		)
+		(instances
+			(project "filter"
+				(path "/69b3d959-9103-4d24-8a1d-6bf78309c8d1"
+					(reference "E2")
 					(unit 1)
 				)
 			)
@@ -14733,7 +14831,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "C, 60 mkF"
+		(property "Value" "C, 80 mkF"
 			(at 71.12 66.294 0)
 			(effects
 				(font
@@ -15808,7 +15906,7 @@
 		(fields_autoplaced yes)
 		(uuid "eb549444-05a0-4022-b2ea-5e80f91478b3")
 		(property "Reference" "R13"
-			(at 168.275 179.07 0)
+			(at 167.64 179.0699 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15816,8 +15914,8 @@
 				(justify right)
 			)
 		)
-		(property "Value" "8 Om"
-			(at 168.275 181.61 0)
+		(property "Value" "2 Om"
+			(at 167.64 181.6099 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16588,7 +16686,7 @@
 		(fields_autoplaced yes)
 		(uuid "fc460344-4eb4-417f-bc52-83c0ef926498")
 		(property "Reference" "R18"
-			(at 260.985 147.32 0)
+			(at 260.35 147.3199 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16596,8 +16694,8 @@
 				(justify right)
 			)
 		)
-		(property "Value" "8 Om"
-			(at 260.985 149.86 0)
+		(property "Value" "2 Om"
+			(at 260.35 149.8599 0)
 			(effects
 				(font
 					(size 1.27 1.27)
