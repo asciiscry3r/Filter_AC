@@ -3991,7 +3991,7 @@
 	)
 	(wire
 		(pts
-			(xy 251.46 78.74) (xy 190.5 78.74)
+			(xy 250.19 77.47) (xy 209.55 77.47)
 		)
 		(stroke
 			(width 0)
@@ -4441,7 +4441,7 @@
 	)
 	(wire
 		(pts
-			(xy 231.14 74.93) (xy 231.14 76.2)
+			(xy 231.14 72.39) (xy 231.14 73.66)
 		)
 		(stroke
 			(width 0)
@@ -4871,7 +4871,7 @@
 	)
 	(wire
 		(pts
-			(xy 231.14 58.42) (xy 231.14 64.77)
+			(xy 231.14 58.42) (xy 231.14 62.23)
 		)
 		(stroke
 			(width 0)
@@ -4881,7 +4881,7 @@
 	)
 	(wire
 		(pts
-			(xy 251.46 52.07) (xy 251.46 78.74)
+			(xy 250.19 52.07) (xy 250.19 77.47)
 		)
 		(stroke
 			(width 0)
@@ -5521,7 +5521,7 @@
 	)
 	(wire
 		(pts
-			(xy 231.14 52.07) (xy 251.46 52.07)
+			(xy 231.14 52.07) (xy 250.19 52.07)
 		)
 		(stroke
 			(width 0)
@@ -5951,7 +5951,7 @@
 	)
 	(wire
 		(pts
-			(xy 217.17 76.2) (xy 217.17 127)
+			(xy 217.17 73.66) (xy 217.17 127)
 		)
 		(stroke
 			(width 0)
@@ -6501,7 +6501,7 @@
 	)
 	(wire
 		(pts
-			(xy 217.17 76.2) (xy 231.14 76.2)
+			(xy 217.17 73.66) (xy 231.14 73.66)
 		)
 		(stroke
 			(width 0)
@@ -6521,7 +6521,7 @@
 	)
 	(wire
 		(pts
-			(xy 190.5 78.74) (xy 190.5 83.82)
+			(xy 209.55 77.47) (xy 209.55 83.82)
 		)
 		(stroke
 			(width 0)
@@ -7751,7 +7751,7 @@
 		)
 		(uuid e5202cbc-330b-496c-b4b7-3df16259b496)
 	)
-	(text_box "R1,R2,R8,R9,R12,R11,R16,R14,R27,R29,R25,R24 = 33KOm\nR3,R10,R13,R26,R21,R20 = 15KOm\nR5,R6,R18,R15,R17,R22,R28,R32 = 7-10Om   R4,R19 = 50Om 2GHz about 450 W\nC1,C6,C9,C17,C16,C18 = 220nF\nC2,C3,C7,C8,C11,C10,C12,C13,C20,C19,C21,C22 = 100nF\nC4,C5 = 82 nF   C23,C24 = 880 mkF\nC25,C26, C27,C28 = 9 pF C9, C10 = 10 nF\n\ntry to keep maximum possible distance between filters ~ 30cm\n\nMC 1230 optional"
+	(text_box "R1,R2,R8,R9,R12,R11,R16,R14,R27,R29,R25,R24 = 33KOm\nR3,R10,R13,R26,R21,R20 = 15KOm\nR5,R6,R18,R15,R17,R22,R28,R32 = 7-10Om   R4,R19 = 50Om 2GHz about 450 W\nC1,C6,C9,C17,C16,C18 = 220nF\nC2,C3,C7,C8,C11,C10,C12,C13,C20,C19,C21,C22 = 100nF\nC4,C5 = 1.6 nF   C23,C24 = 880 mkF\nC25,C26, C27,C28 = 9 pF C9, C10 = 10 nF\n\ntry to keep maximum possible distance between filters ~ 30cm\n\nMC 1230 optional"
 		(exclude_from_sim no)
 		(at 13.97 152.4 0)
 		(size 88.9 43.18)
@@ -12618,7 +12618,7 @@
 	)
 	(symbol
 		(lib_id "PCM_Generic:R,IEC")
-		(at 231.14 69.85 0)
+		(at 231.14 67.31 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -12627,7 +12627,7 @@
 		(fields_autoplaced yes)
 		(uuid "4db18ef4-9ec6-4255-8e28-316a1c1170af")
 		(property "Reference" "R25"
-			(at 233.68 67.3099 0)
+			(at 233.68 64.7699 0)
 			(effects
 				(font
 					(size 2.54 2.54)
@@ -12636,7 +12636,7 @@
 			)
 		)
 		(property "Value" "2 Om"
-			(at 233.68 72.3899 0)
+			(at 233.68 69.8499 0)
 			(effects
 				(font
 					(size 2.54 2.54)
@@ -12645,7 +12645,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 231.14 69.85 0)
+			(at 231.14 67.31 0)
 			(effects
 				(font
 					(size 2.54 2.54)
@@ -12654,7 +12654,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 231.14 69.85 0)
+			(at 231.14 67.31 0)
 			(effects
 				(font
 					(size 2.54 2.54)
@@ -12663,7 +12663,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 231.14 69.85 0)
+			(at 231.14 67.31 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12672,7 +12672,7 @@
 			)
 		)
 		(property "Indicator" ""
-			(at 228.6 67.31 0)
+			(at 228.6 64.77 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14787,7 +14787,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "2 Om"
+		(property "Value" "10 Om"
 			(at 144.78 72.3899 0)
 			(effects
 				(font
