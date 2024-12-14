@@ -6496,7 +6496,7 @@
 				)
 			)
 		)
-		(property "Value" "C, 880 mkF"
+		(property "Value" "C, 10 mkF"
 			(at 51.562 64.77 90)
 			(effects
 				(font
@@ -6779,7 +6779,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "C,IEC"
+		(property "Value" "C, 2.5 mkF"
 			(at 137.668 64.77 0)
 			(effects
 				(font
@@ -7795,7 +7795,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "C,IEC"
+		(property "Value" "C, 2.5 mkF"
 			(at 153.416 64.008 0)
 			(effects
 				(font
@@ -14892,7 +14892,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "C, 880 mkF"
+		(property "Value" "C, 10 mkF"
 			(at 71.12 66.294 0)
 			(effects
 				(font
